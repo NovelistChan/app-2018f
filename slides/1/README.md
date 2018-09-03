@@ -7,20 +7,20 @@
 iOS
 
 
-![iOS](https://developer.apple.com/ios/images/ios-11-hero-large_2x.png) <!-- .element height="50%" -->
+![iOS](https://developer.apple.com/ios/images/hero-ios-12-large_2x.png) <!-- .element height="50%" -->
 
 iOS是一个苹果公司开发的运行于iPhone、iPad和iPod Touch等移动设备上的操作系统
 
-当前最新版本 iOS 10
+当前最新版本 iOS 12
 
 
 ---
 
 ## iOS SDK
-
-![](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Art/iOStech_intro_2x.png) <!-- .element height="30%" width="30%" -->
-
 - iOS SDK包含开发、安装、运行和测试iOS操作系统之上的应用软件所需的工具和接口
+
+![](images/sdk.png) <!-- .element height="30%" width="30%" -->
+
   - 框架（Frameworks）:  动态共享的程序库和资源
   - 工具: Xcode集成开发环境、 模拟器和开发文档等
   - 其他
@@ -31,7 +31,7 @@ iOS是一个苹果公司开发的运行于iPhone、iPad和iPod Touch等移动设
 
 iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组定义良好的系统接口以便你所开发的App可以方便与设备通讯交互
 
-![](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Art/SystemLayers_2x.png) <!-- .element height="30%"  -->
+![](images/layers.png) <!-- .element height="30%" height="30%" -->
 
 <small>这些系统接口被以框架（Frameworks）的形式交付提供给开发者使用。一个框架是一个包含了一组动态共享的程序库和相应资源(例如头文件、图片、帮助应用等) 的目录。</small>
 ---
@@ -69,7 +69,7 @@ iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组�
 ## Media 层框架
 
 包含了绘图、音频、视频处理技术的实现，用以实现iOS应用中的多媒体体验
-
+<small>
 - Assets Library Framework
 - AV Foundation Framework
 - Core Audio
@@ -81,7 +81,9 @@ iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组�
 - Media Player Framework
 - OpenGL ES Framework
 - Quartz Core Framework
-- …
+
+…
+</small>
 
 ---
 
@@ -89,6 +91,7 @@ iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组�
 
 所有App都使用的基础系统服务
 
+<small>
 - Accounts Framework
 - Address Book Framework
 - Core Data Framework
@@ -100,12 +103,16 @@ iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组�
 - Foundation Framework
 - System Configuration Framework
 
+...
+
+</small>
 ---
 
 ## Foundation 框架
 
 Foundation framework (Foundation.framework) 提供了 Core Foundation框架中大部分功能特性的（Swift）封装
 
+<small>
 - Collection data types (arrays, sets, and so on)
 - Bundles/String management
 - Date and time management
@@ -113,8 +120,9 @@ Foundation framework (Foundation.framework) 提供了 Core Foundation框架中�
 - URL and stream manipulation
 - Threads and run loops
 - Regular expression matching
-- …
 
+…
+<small>
 ---
 
 ## Core OS 层框架
@@ -143,17 +151,7 @@ Foundation framework (Foundation.framework) 提供了 Core Foundation框架中�
 
 ## 核心框架
 
-### UIKit
-### Foundation
-
----
-
-## 参考文档
-
-iOS技术概览（iOS Technology Overview）
-
-<small>
-https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html</small>
+![](images/vif.png) <!-- .element height="60%" height="60%" -->
 
 
 ---
@@ -169,11 +167,8 @@ https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/i
 
 ---
 
-Start Developing iOS Apps
+[Start Developing iOS Apps](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/)
 
-<small>
-https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html
-</small>
 
 ---
 
