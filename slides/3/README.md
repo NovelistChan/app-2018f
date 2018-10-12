@@ -16,7 +16,7 @@
 
 ## 应用总体架构
 
-![](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png) <!-- .element height="80%" width="80%" -->
+![](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png) <!-- .element height="40%" width="60%" -->
 
 Model-View-Controller
 
@@ -25,7 +25,7 @@ Model-View-Controller
 ## 更细节
 
 
-![](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/core_objects_2x.png) <!-- .element height="50%" width="50%" -->
+![](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/core_objects_2x.png) <!-- .element height="50%" width="40%" -->
 
 ---
 
@@ -42,7 +42,7 @@ Model-View-Controller
 
 ## 主循环
 
-![](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/event_draw_cycle_a_2x.png) <!-- .element height="50%" width="50%" -->
+![](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/event_draw_cycle_a_2x.png) <!-- .element height="25%" width="28%" -->
 
 - 应用的主循环负责处理所有用户相关的事件 
 - UIApplication对象负责在应用启动时为其创建主循环并以此处理事件
@@ -60,7 +60,7 @@ Model-View-Controller
 
 ## 委托（Delegation）
 
-![](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Art/delegation_2x.png) <!-- .element height="80%" width="80%" -->
+![](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Art/delegation_2x.png) <!-- .element height="40%" width="60%" -->
 
 
 ---
@@ -190,7 +190,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ## 应用执行状态（生命周期）
 
-![](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png)<!-- .element height="50%" width="50%" -->
+![](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png)<!-- .element height="60%" width="40%" -->
 
 
 ---
