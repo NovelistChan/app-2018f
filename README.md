@@ -17,3 +17,5 @@ http-server
 ## 1. [概述](slides/1/1.html)
 ## 2. [语言](slides/2/2.html)
 ## 3. [应用架构](slides/3/3.html)
+## 4. [视图](slides/4/4.html)
+## 5. [视图控制器](slides/5/5.html)
