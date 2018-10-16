@@ -1,42 +1,41 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="../../reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="../../reveal.js/css/theme/white.css" id="theme">
-    <link rel="stylesheet" href="../../reveal.js/lib/css/zenburn.css">    
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-        <section data-markdown="README.md"  
-        data-separator="---"  
-        data-separator-vertical="~~"  
-        data-separator-notes="^Note:"  
-        data-charset="utf-8">
-     </section>
-      </div>
+
+<head>
+  <link rel="stylesheet" href="../../node_modules/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="../../node_modules/reveal.js/css/theme/white.css" id="theme">
+  <link rel="stylesheet" href="../../node_modules/reveal.js/lib/css/zenburn.css">
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="README.md" data-separator="---" data-separator-vertical="~~" data-separator-notes="^Note:" data-charset="utf-8">
+      </section>
     </div>
-    <script src="../../reveal.js/lib/js/head.min.js"></script>    
-    <script src="../../reveal.js/js/reveal.js"></script>
-    <script>
-      Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        // Optional libraries used to extend on reveal.js
-        dependencies: [
-          { src: '../../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: '../../reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: '../../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: '../../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-          { src: '../../reveal.js/plugin/notes/notes.js' },
-          { src: '../../reveal.js-menu/menu.js'},
-          { src: '../../reveal.js-plugins/chalkboard/chalkboard.js' }
-        ],
-				options: {
-  					"highlightTheme": "darkula"
-				},
-        menu: {
+  </div>
+  <script src="../../node_modules/reveal.js/lib/js/head.min.js"></script>
+  <script src="../../node_modules/reveal.js/js/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+        { src: '../../node_modules/reveal.js/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+        { src: '../../node_modules/reveal.js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: '../../node_modules/reveal.js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: '../../node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+        { src: '../../node_modules/reveal.js/plugin/notes/notes.js' },
+        { src: '../../node_modules/reveal.js-menu/menu.js' },
+        { src: '../../node_modules/reveal.js-chalkboard/chalkboard.js' }
+      ],
+      options: {
+        "highlightTheme": "darkula"
+      },
+      menu: {
         // Specifies which side of the presentation the menu will 
         // be shown. Use 'left' or 'right'.
         side: 'left',
@@ -74,17 +73,17 @@
         // Specifies the themes that will be available in the themes
         // menu panel. Set to 'false' to hide themes panel.
         themes: [
-          { name: 'Black', theme: '../../reveal.js/css/theme/black.css' },
-          { name: 'White', theme: '../../reveal.js/css/theme/white.css' },
-          { name: 'League', theme: '../../reveal.js/css/theme/league.css' },
-          { name: 'Sky', theme: '../../reveal.js/css/theme/sky.css' },
-          { name: 'Beige', theme: '../../reveal.js/css/theme/beige.css' },
-          { name: 'Simple', theme: '../../reveal.js/css/theme/simple.css' },
-          { name: 'Serif', theme: '../../reveal.js/css/theme/serif.css' },
-          { name: 'Blood', theme: '../../reveal.js/css/theme/blood.css' },
-          { name: 'Night', theme: '../../reveal.js/css/theme/night.css' },
-          { name: 'Moon', theme: '../../reveal.js/css/theme/moon.css' },
-          { name: 'Solarized', theme: '../../reveal.js/css/theme/solarized.css' }
+          { name: 'Black', theme: '../../node_modules/reveal.js/css/theme/black.css' },
+          { name: 'White', theme: '../../node_modules/reveal.js/css/theme/white.css' },
+          { name: 'League', theme: '../../node_modules/reveal.js/css/theme/league.css' },
+          { name: 'Sky', theme: '../../node_modules/reveal.js/css/theme/sky.css' },
+          { name: 'Beige', theme: '../../node_modules/reveal.js/css/theme/beige.css' },
+          { name: 'Simple', theme: '../../node_modules/reveal.js/css/theme/simple.css' },
+          { name: 'Serif', theme: '../../node_modules/reveal.js/css/theme/serif.css' },
+          { name: 'Blood', theme: '../../node_modules/reveal.js/css/theme/blood.css' },
+          { name: 'Night', theme: '../../node_modules/reveal.js/css/theme/night.css' },
+          { name: 'Moon', theme: '../../node_modules/reveal.js/css/theme/moon.css' },
+          { name: 'Solarized', theme: '../../node_modules/reveal.js/css/theme/solarized.css' }
         ],
 
         // Specifies if the transitions menu panel will be shown.
@@ -123,26 +122,27 @@
         // the menu button.
         delayInit: false
       },
-      chalkboard: { 
+      chalkboard: {
         src: null,
-        readOnly: undefined, 
+        readOnly: undefined,
         toggleChalkboardButton: { left: "100px", bottom: "30px", top: "auto", right: "auto" },
         toggleNotesButton: { left: "150px", bottom: "30px", top: "auto", right: "auto" },
         transition: 800,
         theme: "chalkboard",
         // configuration options for notes canvas and chalkboard
-        color: [ 'rgba(0,0,255,1)', 'rgba(255,255,255,0.5)' ],
-        background: [ 'rgba(127,127,127,.1)' , '../../reveal.js-plugins/chalkboard/img/blackboard.png' ],
-        pen:  [ 'url(../../reveal.js-plugins/chalkboard/img/boardmarker.png), auto', 'url(../../reveal.js-plugins/chalkboard/img/chalk.png), auto' ],
+        color: ['rgba(0,0,255,1)', 'rgba(255,255,255,0.5)'],
+        background: ['rgba(127,127,127,.1)', '../../node_modules/reveal.js-chalkboard/img/blackboard.png'],
+        pen: ['url(../../node_modules/reveal.js-chalkboard/img/boardmarker.png), auto', 'url(../../node_modules/reveal.js-chalkboard/img/chalk.png), auto'],
       },
       keyboard: {
-	      67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
-	      66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
-	      46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
-	      8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
-	      68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
-	    },
-      });
-    </script>
-  </body>
+        67: function () { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+        66: function () { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+        46: function () { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+        8: function () { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+        68: function () { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+      },
+    });
+  </script>
+</body>
+
 </html>
