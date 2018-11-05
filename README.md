@@ -19,3 +19,6 @@ http-server
 ## 3. [应用架构](slides/3/3.html)
 ## 4. [视图](slides/4/4.html)
 ## 5. [视图控制器](slides/5/5.html)
+## 6. [高级视图与控制器](slides/6/6.html)
+## 7. [数据持久化](slides/7/7.html)
+## 8. [并发编程](slides/8/8.html)
