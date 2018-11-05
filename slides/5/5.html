@@ -17,6 +17,8 @@
   <script src="../../node_modules/reveal.js/lib/js/head.min.js"></script>
   <script src="../../node_modules/reveal.js/js/reveal.js"></script>
   <script>
+    var gaPropertyID = 'UA-121783408-6';
+
     Reveal.initialize({
       controls: true,
       progress: true,
@@ -30,7 +32,8 @@
         { src: '../../node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
         { src: '../../node_modules/reveal.js/plugin/notes/notes.js' },
         { src: '../../node_modules/reveal.js-menu/menu.js' },
-        { src: '../../node_modules/reveal.js-chalkboard/chalkboard.js' }
+        { src: '../../node_modules/reveal.js-chalkboard/chalkboard.js' },
+        { src: '../../node_modules/reveal-ga/dist/reveal-ga.min.js' }
       ],
       options: {
         "highlightTheme": "darkula"
