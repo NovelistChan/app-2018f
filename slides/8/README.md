@@ -177,16 +177,18 @@ Closures are self-contained blocks of functionality that can be passed around an
 
 ## Demo
 
-https://github.com/njuics/app-2017f/tree/master/examples/GCDDemo
+https://github.com/idupclub/GCDDemo
 
 ---
 
 ## Tutorial
 
+Grand Central Dispatch Tutorial for Swift 4
+
 ![](https://koenig-media.raywenderlich.com/uploads/2016/12/after_background_task_2-284x500.png) <!-- .element height="50%" width="22%" --> 
 
-<small>https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1</small>
-<small>https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-2</small>
+<small>https://www.raywenderlich.com/5370-grand-central-dispatch-tutorial-for-swift-4-part-1-2</small>
+<small>https://www.raywenderlich.com/5371-grand-central-dispatch-tutorial-for-swift-4-part-2-2</small>
 
 
 
@@ -216,17 +218,16 @@ An abstract class that represents the code and data associated with a single tas
 
 ## Demo
 
-https://github.com/njuics/app-2017f/tree/master/examples/OperationQueueDemo
-
+https://github.com/idupclub/OperationQueueDemo
 ---
 
 ## Tutorial
 
 ![](https://koenig-media.raywenderlich.com/uploads/2014/07/classicphotos-stalled-screenshot.png) <!-- .element height="50%" width="22%" -->
 
-<small>https://www.raywenderlich.com/76341/use-nsoperation-nsoperationqueue-swift</small>
+<small>https://www.raywenderlich.com/5293-operation-and-operationqueue-tutorial-in-swift</small>
 
-Swift 4 版本
+<small>Swift 4 版本</small>
 
 <small>https://github.com/idupclub/ClassicPhotos-Serial</small>
 
