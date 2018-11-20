@@ -40,16 +40,16 @@ Demo
 ## 直接访问Web内容
 
 - 使用NSURLSession或者NSURLConnection
-  - 与NSURLConnection相比，NSURLSession最直接的改善就是提供了配置每个会话的缓存、协议、cookie和证书政策（credential policies），甚至跨应用程序共享它们的能力。
-
 
 --- 
+
 
 ## URLConnection (Deprecated)
 
 - 一个URLConnection 对象让你可以加载指定URL的内容 
   - URLConnection 接口较少, 仅提供给开始、取消等 
   - 相关配置参数主要通过URL请求对象进行设置
+
 
 ---
 
